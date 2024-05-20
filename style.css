@@ -1,0 +1,57 @@
+body {
+  font-size:large;
+  padding-top: 7%;
+}
+.textContainer { 
+  margin-: 20px; 
+}
+.wrapper { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  margin: 20px; 
+}
+.paginationBtn { 
+  
+  display: flex; 
+  align-items: center; 
+  margin: 0 5px;
+}
+.paginationBtn a, .page { 
+  margin: 5px 10px; 
+  cursor: pointer; 
+}
+.page.active { 
+  font-weight: bold; 
+  text-decoration: underline; 
+}
+.container { 
+  margin: 20px; 
+  text-align: center; 
+}
+table { 
+  width: 80%; 
+  margin: 0 auto; 
+  border-collapse: collapse; 
+  background-color:darkgray;
+}
+th, td { 
+  border: 1px solid #ddd; 
+  padding: 8px; 
+  text-align: left; 
+}
+th { 
+  background-color:brown; 
+}
+#paginationTable {
+  padding-left: 0%;
+  margin: 10px;
+  border-collapse: collapse;
+}
+#paginationTable td {
+  
+  padding: 5px;
+  font-size: 12px;
+  background-color: lightblue;
+;
+}
